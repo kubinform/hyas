@@ -1,0 +1,44 @@
+
+C:\Git>git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
+Cloning into 'my-hyas-site'...
+remote: Enumerating objects: 1871, done.
+remote: Counting objects: 100% (526/526), done.
+remote: Compressing objects: 100% (282/282), done.
+remote: Total 1871 (delta 342), reused 372 (delta 236), pack-reused 1345 eceiving objects: 100% (1871/1871), 6.36 MiB | Receiving objects: 100% (1871/1871), 6.64 MiB | 1.24 MiB/s, done.
+
+Resolving deltas: 100% (892/892), done.
+
+C:\Git\my-hyas-site>npm install
+
+> @hyas/core@1.5.5 postinstall
+> hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo
+
+
+Hugo Installer
+
+> Checking for existing binary
+> Downloading binary from "https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_extended_0.92.1_Windows-64bit.zip"
+> Downloading checksum from "https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_0.92.1_checksums.txt"
+> Verifying binary checksum
+> Extracting binary to disk
+> Verifying binary health
+
+Hugo is now available in "node_modules/.bin/hugo".
+
+- Version       0.92.1
+- Extended      Yes
+- OS            win32
+- Architecture  x64
+
+hugo v0.92.1-85E2E862+extended windows/amd64 BuildDate=2022-01-27T11:44:41Z VendorInfo=gohugoio
+
+Success!
+
+added 566 packages, and audited 567 packages in 13s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Git\my-hyas-site>
